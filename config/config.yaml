@@ -8,10 +8,13 @@
 ## The official OPENAI_BASE_URL is https://api.openai.com/v1
 ## If the official OPENAI_BASE_URL is not available, we recommend using the [openai-forward](https://github.com/beidongjiedeguang/openai-forward).
 ## Or, you can configure OPENAI_PROXY to access official OPENAI_BASE_URL.
-OPENAI_BASE_URL: "https://api.openai.com/v1"
+# OPENAI_BASE_URL: "https://api.openai.com/v1"
 #OPENAI_PROXY: "http://127.0.0.1:8118"
 #OPENAI_API_KEY: "YOUR_API_KEY"  # set the value to sk-xxx if you host the openai interface for open llm model
-OPENAI_API_MODEL: "gpt-4-1106-preview"
+# OPENAI_API_MODEL: "gpt-4-1106-preview"
+OPENAI_API_MODEL: "gpt-3.5-turbo"
+OPENAI_API_KEY: "sk-K576t5b5pvw3d67uikDyq4uRpVBfeT3hDVxFqitpdvrNv4yM" 
+OPENAI_BASE_URL: "https://api.fe8.cn/v1"
 MAX_TOKENS: 4096
 RPM: 10
 TIMEOUT: 60 # Timeout for llm invocation
